@@ -1,0 +1,117 @@
+nav {
+    width: 100%;
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    align-items: center;
+}
+
+.links {
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+}
+
+nav ul li a {
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul li::after {
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: aquamarine;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+
+header {
+
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)), url('D:/website/Mayur-Polymers/phtos/milky-way-starry-sky-night-sky-star-957061.jpeg');
+    height: 800px;
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+
+    color: #fff;
+    padding-top: 250px;
+    position: relative;
+
+
+}
+
+
+footer {
+
+    background-color: #000;
+}
+
+.footer-content {
+    display: flex;
+    color: aquamarine;
+    text-align: left;
+}
+
+.footer-content ul li {
+
+    display: block;
+}
+
+.footer-content ul li a {
+    padding: 0px 980px 0px 50px;
+    font-size: 20px;
+    text-decoration: none;
+    color: aquamarine;
+    display: block;
+
+}
+
+.footer-content ul li:hover {
+
+    opacity: 0.7;
+}
+
+
+.contact {
+
+    text-align: right;
+    padding: 0px 100px 0px 0px;
+}
+
+.footer-bottom {
+
+    text-align: center;
+    color: aquamarine;
+    opacity: 0.8;
+    padding: 10px;
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.Gallery {
+    
+    line-height: 0px;
+    display: inline-flex;
+    column-gap: 5px;
+}
+
+.Gallery img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 5px;
+}
